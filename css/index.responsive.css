@@ -93,6 +93,9 @@
   #Portfolio .content .box {
     width: 100%;
   }
+  #Portfolio .content .box .item:hover .layout a {
+    text-wrap: nowrap;
+  }
   #ContactUs form .box:nth-of-type(1),
   #ContactUs form .box:nth-of-type(2) {
     width: 100%;
@@ -112,8 +115,15 @@
     width: 15%;
   }
   #Services .content .box .item {
-    width: 280px;
+    width: 260px;
     margin: auto;
+  }
+  #Portfolio .content .box {
+    width: 84%;
+    margin: auto;
+  }
+  #Portfolio .content .box:not(:last-child) {
+    margin-bottom: 30px;
   }
 }
 
@@ -141,6 +151,9 @@
   #Blog .content .box .item {
     width: initial;
     margin: 0px 10px;
+  }
+  #Blog .content .box .item .body h4 {
+    font-size: 16px;
   }
 }
 
